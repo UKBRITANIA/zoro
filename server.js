@@ -4,7 +4,7 @@ const Discord = require('discord.js'),
 
 // Extension Variables
 client.prefix  = 'g!';
-client.ownerID = '144645791145918464';
+client.ownerID = '840216933159927809';
 client.color = 0xDFE0D2;
 client.footer = 'Created By Plexi Development • https://discord.gg/plexidev';
 client.ignoreBots = true;
@@ -101,7 +101,7 @@ client.on('message', message => {
 });
 
 // Login
-client.login(process.env.TOKEN);
+client.login('ODg5NTkwNDg4MjI1Njg1NTI0.YUjdtA.3N1GbqwveRF4B3mxkKAjbLP2b1E');
 
 client.on('guildBanAdd', async guild => {
 
